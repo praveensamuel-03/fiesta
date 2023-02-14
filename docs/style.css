@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.fiesta{
+    float: right;
+    height: 100px;
+    width: 180px;
+    margin-right: 20px;
+}
+
+.dept{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.poster{
+    height: 85vh;
+    width: 85vh;
+    justify-content: center;
+    margin: 0;
+    top: 0;
+}
+
+.but{
+    position: relative;
+    top: 180px;
+    right: 50px;
+    float: right;
+}
+
+
+.button{
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    font-size: 16px;
+    /* background-color: blue; */
+}
+.button:hover{
+    color: blue;
+}
+
+.rules{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.rules h1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.rules ul{
+    margin: 110px;
+    line-height: 4rem;
+    font-size: 30px;
+
+}
+

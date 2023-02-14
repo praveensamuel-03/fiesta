@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.fiesta{
+    float: right;
+    height: 100px;
+    width: 180px;
+    margin-right: 20px;
+}
+
+.dept{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.problems{
+    height: 85vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.webpage{
+    width: 100%;
+}
+.title{ 
+    margin-left: 20px;
+}
+
+.question{
+    margin-left:230px;
+    line-height: 3.5rem;
+    font-size: 28px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.question p ,ul{
+    margin-left: 100px;
+}
+
+.webapp{
+    width: 100%;
+    margin-top: 100px;
+}
